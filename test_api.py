@@ -24,7 +24,7 @@ def test_product_price():
 
     assert response.status_code == 200
     assert product["price"] > 0
-    
+
 
 import pytest
 
